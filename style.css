@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Lora', serif;
+    background-color: var(--grey-color);
+}
+:root{
+    --grey-color:#303841;
+    --torq-color:#00ADB5;
+    --white-color:#EEEEEE;
+    --orange-color:#FF5722;
+}
+.heading{
+    text-align: center;
+    background-color: var(--torq-color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: var(--grey-colorS);
+    
+}
+.input{
+    margin-left: 30%;
+    display: flex;
+    padding: 0.8rem;
+    width: 30%;
+    height: 1rem;
+    margin-top:0.8rem;
+}
+.label{
+    margin-left: 30%;
+    margin-top:0.8rem;
+    margin-bottom:0.8rem;
+    color: var(--orange-color);
+    font-size: large;
+    
+}
+.butt{
+    margin-left: 30%;
+    margin-top:1rem;
+    size:1.5rem;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    font-family: 'Lora', serif;
+    background-color: var(--torq-color);
+    color:var(--grey-color);
+}
+.out{
+    margin-left: 30%;
+    margin-top:0.8rem;
+    margin-bottom:0.8rem;
+    color: var(--orange-color);
+}

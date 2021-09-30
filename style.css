@@ -48,6 +48,7 @@ body{
     margin-top:0.8rem;
     margin-bottom:0.8rem;
     color: var(--orange-color);
+    max-width: 500px;
 }
 .link{
     text-decoration:none;

@@ -197,8 +197,12 @@ function clickHandler(e){
             resultRef.innerText = "Yay! Your Birthday is a palindrome!🎉"
         }
         else{
-            var [ctr,nextDate] = getNextPalindromeDate(date);
-            resultRef.innerText = 'The next palindrome date is on '+ nextDate.day +"-"+ nextDate.month +"-"+ nextDate.year + "..You missed it by " + ctr + " days";
+            var [ctr1,nextDate] = getNextPalindromeDate(date);
+            // resultRef.innerText = 'The next palindrome date is on '+ nextDate.day +"-"+ nextDate.month +"-"+ nextDate.year + "..You missed it by " + ctr1 + " days";
+            
+            var [ctr2,prevDate] = getPreviousPalindromeDate(date);
+            resultRef.innerText = 'The last palindrome date is on '+ prevDate.day +"-"+ prevDate.month +"-"+ prevDate.year + " You missed it by " + ctr2 + " days ..." + 'The next palindrome date is on '+ nextDate.day +"-"+ nextDate.month +"-"+ nextDate.year + " It will be after  " + ctr1 + " days :)";
+
         }
     }
 }
